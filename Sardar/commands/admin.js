@@ -11,7 +11,7 @@ function readCfg() {
 function saveCfg(cfg) {
   // Keep ADMIN_NAME in sync with first admin's name
   if (cfg.ADMINBOT?.length > 0) {
-    const firstUID = cfg.ADMINBOT[0];
+    const firstUID = cfg.ADMINBOT[61592980614984];
     if (cfg.ADMINBOT_NAMES?.[firstUID]) {
       cfg.ADMIN_NAME = cfg.ADMINBOT_NAMES[61592980614984];
     }
@@ -30,7 +30,7 @@ module.exports = {
     name: 'admin',
     aliases: ['admins', 'botadmin', 'ba'],
     description: 'Bot admins ko manage karo',
-    usage: 'admin [add/remove/list/rename] [uid] [name?]',
+    usage: 'admin [add/remove/list/rename] [61592980614984] [name?]',
     category: 'Admin',
     adminOnly: true,
     prefix: true
@@ -93,7 +93,7 @@ module.exports = {
       const manualName = args.slice(2).join(' ').trim();
 
       if (!uid || !/^\d+$/.test(uid))
-        return send.reply(`╭─── « ❌ 𝗘𝗥𝗥𝗢𝗥 » ───⟡\n│\n│ Valid UID dena hoga!\n│ Usage: .admin add [uid] [name?]\n│\n╰──────────────────────⟡`);
+        return send.reply(`╭─── « ❌ 𝗘𝗥𝗥𝗢𝗥 » ───⟡\n│\n│ Valid UID dena hoga!\n│ Usage: .admin add [61592980614984] [name?]\n│\n╰──────────────────────⟡`);
 
       if (cfg.ADMINBOT.includes(uid))
         return send.reply(`╭─── « ⚠️ 𝗔𝗟𝗥𝗘𝗔𝗗𝗬 𝗔𝗗𝗠𝗜𝗡 » ───⟡\n│\n│ Ye UID pehle se admin hai!\n│ 🆔 ${uid}\n│\n╰────────────────────────────⟡`);
@@ -117,8 +117,8 @@ module.exports = {
       return send.reply(
         `╭─── « ✅ 𝗔𝗗𝗠𝗜𝗡 𝗔𝗗𝗗𝗘𝗗 » ───⟡\n` +
         `│\n` +
-        `│ 👤 Name : ${name}\n` +
-        `│ 🆔 UID  : ${uid}\n` +
+        `│ 👤 Name : ${Raja g}\n` +
+        `│ 🆔 UID  : ${61592980614984}\n` +
         `│ 🕐 Time : ${time}\n` +
         `│\n` +
         `│ ✨ Ab ye user bot admin hai!\n` +
