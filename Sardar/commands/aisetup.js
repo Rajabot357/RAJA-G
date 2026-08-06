@@ -60,7 +60,7 @@ module.exports = {
         `╭─── « 🤖 AI SETTINGS » ───⟡\n` +
         `│\n` +
         `│ ◈ 𝗔𝗜 𝗡𝗮𝗺𝗲   : ${bold(cfg.AI_NAME || 'Mano')}\n` +
-        `│ ◈ 𝗢𝘄𝗻𝗲𝗿     : ${bold(cfg.AI_OWNER || 'Sardar RDX')}\n` +
+        `│ ◈ 𝗢𝘄𝗻𝗲𝗿     : ${bold(cfg.AI_OWNER || 'Raja G')}\n` +
         `│ ◈ 𝗠𝗼𝗱𝗲𝗹     : ${cfg.AI_MODEL || 'llama-3.1-8b'}\n` +
         `│ ◈ 𝗔𝗣𝗜 𝗞𝗲𝘆   : ${keyDisplay}\n` +
         `│ ◈ 𝗦𝘁𝗮𝘁𝘂𝘀    : ${status}\n` +
