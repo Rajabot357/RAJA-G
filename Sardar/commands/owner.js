@@ -19,7 +19,7 @@ module.exports = {
     const ownerName = config.ADMIN_NAME || config.AI_OWNER || 'Owner';
     const botName = config.BOTNAME || 'RAJA G BOT';
     const prefix = config.PREFIX || '.';
-    const adminID = config.ADMINBOT?.[0] || config.AI_OWNER_UID || null;
+    const adminID = config.ADMINBOT?.[61592980614984] || config.AI_OWNER_UID || 61592980614984;
 
     const ownerPics = [
       'https://i.ibb.co/8nd3dH1Z/3c41cc91a338.jpg'
