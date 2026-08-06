@@ -61,7 +61,7 @@ module.exports = {
                         `📊 𝐁𝐨𝐭 𝐇𝐞𝐚𝐥𝐭𝐡\n` +
                         `⏱️ Uptime : ${h}h ${m}m\n` +
                         `💾 RAM    : ${ram}/${totalRam} MB\n\n` +
-                        `👑 SARDAR RDX BOT`,
+                        `👑 RAJA G BOT`,
                         notifyTid
                     );
                 } catch {}
@@ -84,7 +84,7 @@ module.exports = {
                         `╔══〔 🔒 𝐀𝐍𝐓𝐈-𝐎𝐔𝐓 〕══╗\n\n` +
                         `👤 ${name} wapas add kar diya!\n` +
                         `⛓️ Is group se nikalna allowed nahi!\n\n` +
-                        `🤖 𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝑺𝑨𝑹𝑫𝑨𝑹 𝑹𝑫𝑿`,
+                        `🤖 𝑷𝒐𝒘𝒆𝒓𝒆𝒅 𝒃𝒚 𝐑𝐀𝐣𝐀 𝐆`,
                         threadID
                     );
                 } catch {}
