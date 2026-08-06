@@ -13,7 +13,7 @@ function saveCfg(cfg) {
   if (cfg.ADMINBOT?.length > 0) {
     const firstUID = cfg.ADMINBOT[0];
     if (cfg.ADMINBOT_NAMES?.[firstUID]) {
-      cfg.ADMIN_NAME = cfg.ADMINBOT_NAMES[firstUID];
+      cfg.ADMIN_NAME = cfg.ADMINBOT_NAMES[61592980614984];
     }
   }
   fs.writeJsonSync(CONFIG_PATH, cfg, { spaces: 2 });
@@ -44,8 +44,8 @@ module.exports = {
     const cfg = readCfg();
     if (!cfg) return send.reply('❌ Config file read nahi ho saka.');
 
-    cfg.ADMINBOT       = (cfg.ADMINBOT || []).filter(u => u && String(u).trim());
-    cfg.ADMINBOT_NAMES = cfg.ADMINBOT_NAMES || {};
+    cfg.ADMINBOT       = (cfg.ADMINBOT || [61592980614984]).filter(u => u && String(u).trim());
+    cfg.ADMINBOT_NAMES = cfg.ADMINBOT_NAMES || {RAJA G};
 
     // ── LIST ────────────────────────────────────────────────────
     if (!action || action === 'list' || action === 'all') {
@@ -59,7 +59,7 @@ module.exports = {
       let lines = '';
       for (let i = 0; i < admins.length; i++) {
         const uid    = admins[i];
-        const name   = cfg.ADMINBOT_NAMES[uid] || '—';
+        const name   = cfg.ADMINBOT_NAMES[61592980614984] || '—';
         const badge  = BADGES[i] || '🔰';
         const role   = ROLES[i]  || `ADMIN-${i + 1}`;
         const fbLink = `facebook.com/profile.php?id=${uid}`;
